@@ -19,12 +19,15 @@
   },
   "dependencies": {
     "@lucide/vue": "^1.17.0",
+    "chess.js": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "reka-ui": "^2.9.8",
     "shadcn-vue": "^2.7.3",
+    "socket.io-client": "^4.8.1",
     "tailwind-merge": "^3.6.0",
     "tw-animate-css": "^1.4.0",
-    "vue": "^3.5.35"
+    "vue": "^3.5.35",
+    "vue3-chessboard": "^1.3.3"
   }
 }

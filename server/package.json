@@ -1,0 +1,21 @@
+{
+  "name": "chess-roulette-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.19.4",
+    "typescript": "~6.0.2"
+  }
+}
